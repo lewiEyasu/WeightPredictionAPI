@@ -123,4 +123,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-MODELS = os.path.join(BASE_DIR, 'ml/models')
+MODELS = os.path.join(BASE_DIR, "spam/spam_classifier.json")
